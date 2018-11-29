@@ -6,7 +6,6 @@ import {
 
 import TopicList from '../views/top-list/index.jsx'
 import TopicDetail from '../views/top-detail/index.jsx';
-import TestApi from '../views/test/api-test'
 
 export default () => [
     <Route path='/' render = {
@@ -17,8 +16,5 @@ export default () => [
     />, 
     <Route path="/detail" component={TopicDetail} 
         key="detail"
-    />,
-<Route path="/test" component={TestApi}
-        key="test"
     />
 ]
